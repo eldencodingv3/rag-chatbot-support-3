@@ -1,0 +1,22 @@
+{
+  "name": "rag-chatbot-support",
+  "version": "1.0.0",
+  "description": "Node.js RAG chatbot for customer support using LanceDB and OpenAI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "ingest": "node src/ingest.js",
+    "lint": "echo 'No linter configured'",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.13.0",
+    "apache-arrow": "^18.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
