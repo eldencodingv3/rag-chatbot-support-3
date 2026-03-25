@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What are CloudSync's pricing plans?",
+    "answer": "CloudSync offers three plans: Starter at $9/month for up to 5 GB of synced data, Professional at $29/month for up to 50 GB with priority support, and Enterprise at $99/month with unlimited data and a dedicated account manager. All plans include a 14-day free trial with no credit card required."
+  },
+  {
+    "question": "How do I set up my CloudSync account?",
+    "answer": "To set up your account, visit cloudsync.example.com and click 'Get Started'. Enter your email, create a password, and verify your email address through the confirmation link we send. Once verified, you can connect your first data source from the dashboard in under two minutes."
+  },
+  {
+    "question": "How does data synchronization work in CloudSync?",
+    "answer": "CloudSync uses real-time bidirectional sync to keep your data consistent across all connected sources. Changes are detected within seconds and propagated automatically. You can also configure sync schedules for batch processing if you prefer syncing at specific intervals rather than in real time."
+  },
+  {
+    "question": "What should I do if my data isn't syncing?",
+    "answer": "First, check your connection status on the CloudSync dashboard under 'Sources'. If a source shows as disconnected, try re-authenticating it. You can also check the sync logs under 'Activity' for specific error messages. If the issue persists, restart the sync by clicking 'Force Sync' or contact our support team for assistance."
+  },
+  {
+    "question": "How does billing work and when am I charged?",
+    "answer": "CloudSync bills monthly on the anniversary of your sign-up date. You can view your current usage and upcoming invoice in 'Settings > Billing'. We accept all major credit cards and PayPal. If you exceed your plan's data limit, you'll receive a notification and can upgrade your plan at any time without losing data."
+  },
+  {
+    "question": "How do I cancel my CloudSync subscription?",
+    "answer": "You can cancel your subscription at any time from 'Settings > Billing > Cancel Plan'. Your account will remain active until the end of your current billing period. After cancellation, your data is retained for 30 days in case you want to reactivate. You can export all your data before cancelling through the data export feature."
+  },
+  {
+    "question": "Does CloudSync offer API access?",
+    "answer": "Yes, CloudSync provides a full REST API available on Professional and Enterprise plans. You can generate API keys from 'Settings > Developer > API Keys'. Our API supports all CRUD operations, webhook notifications, and batch sync triggers. Comprehensive API documentation is available at docs.cloudsync.example.com."
+  },
+  {
+    "question": "Is there a CloudSync mobile app?",
+    "answer": "Yes, CloudSync has mobile apps for both iOS and Android. You can download them from the App Store or Google Play Store. The mobile app lets you monitor sync status, view activity logs, and manage connections on the go. Push notifications alert you to any sync issues in real time."
+  },
+  {
+    "question": "How does CloudSync handle data security?",
+    "answer": "CloudSync uses AES-256 encryption for data at rest and TLS 1.3 for data in transit. We are SOC 2 Type II certified and GDPR compliant. All data is stored in geographically distributed data centers with automatic failover. You can also enable two-factor authentication for additional account security."
+  },
+  {
+    "question": "What integrations does CloudSync support?",
+    "answer": "CloudSync integrates with over 50 popular services including Google Drive, Dropbox, AWS S3, Microsoft OneDrive, Salesforce, PostgreSQL, MySQL, and MongoDB. New integrations are added monthly based on user feedback. Enterprise customers can request custom integrations through their dedicated account manager."
+  },
+  {
+    "question": "What are CloudSync's support hours?",
+    "answer": "Our support team is available Monday through Friday, 9 AM to 8 PM Eastern Time for Starter plans. Professional plan users get extended support from 7 AM to 11 PM ET on weekdays and 9 AM to 5 PM on weekends. Enterprise customers enjoy 24/7 support with a guaranteed 1-hour response time for critical issues."
+  },
+  {
+    "question": "How can I export my data from CloudSync?",
+    "answer": "You can export your data at any time by going to 'Settings > Data Management > Export'. CloudSync supports exports in CSV, JSON, and Parquet formats. For large datasets, exports run in the background and you'll receive an email with a download link when ready. Exports include all synced data, metadata, and activity logs."
+  }
+]
