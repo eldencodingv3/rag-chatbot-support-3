@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@lancedb/lancedb": "^0.13.0",
-    "apache-arrow": "^18.0.0",
+    "apache-arrow": "^17.0.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "openai": "^4.77.0"
